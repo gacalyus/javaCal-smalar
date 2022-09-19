@@ -1,0 +1,109 @@
+package odevBır;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// System.out.println("Hello Java");
+		// System.out.println("Hello Java2");
+
+		// variable
+
+		int sayı = 15;
+		String mesaj = "öğrenci sayım :";
+		// System.out.println(mesaj + sayı);
+
+		double sayıKusurat = 25.96;
+		// System.out.println(sayıKusurat);
+
+		char karakter = 'd';
+		boolean dogruyanlıs = true;
+
+		// ŞartBlokları
+
+		if (sayı < 15) {
+			System.out.println("küçük");
+		} else if (sayı == 15) {
+			// System.out.println("eşit");
+		} else {
+			System.out.println("büyük");
+		}
+
+		// ReCap Demo 1
+		int sayı1 = 15;
+		int sayı2 = 45;
+		int sayı3 = 70;
+		int enBuyuk = sayı1;
+
+		if (enBuyuk < sayı2) {
+			enBuyuk = sayı2;
+		}
+		if (enBuyuk < sayı3) {
+			enBuyuk = sayı3;
+		}
+
+		// System.out.println(enBuyuk);
+
+		// SwitchBlokları
+
+		char grade = 'F';
+
+		switch (grade) {
+		case 'A':
+			System.out.println("Geçtiniz");
+			break;
+		case 'B':
+			System.out.println("Geçtiniz2");
+			break;
+		case 'C':
+			System.out.println("Geçtiniz3");
+			break;
+		case 'F':
+			//System.out.println("Kaldınız!");
+			break;
+		default:
+			//System.out.println("Geçersiz Not");
+
+		}
+		
+		
+		
+		// ForDöngüsü
+		
+		for(int i=1;i<10;i = i + 2) {
+			//System.out.println(i);
+		}
+		
+		
+		//While Döngüsü
+		
+		int i = 1;
+		while( i<10) {
+			System.out.println(i);
+			i++;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
